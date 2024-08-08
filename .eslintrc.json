@@ -1,17 +1,12 @@
 {
-    "extends": [
-      "react-app",
-      "airbnb",
-      "plugin:prettier/recommended"
-    ],
-    "rules": {
-      "prettier/prettier": [
-        "error",
-        {
-          "singleQuote": true,
-          "semi": false
-        }
-      ]
-    }
+  "extends": ["react-app", "airbnb", "plugin:prettier/recommended"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "semi": false
+      }
+    ]
   }
-  
+}
